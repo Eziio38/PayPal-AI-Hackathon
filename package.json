@@ -1,0 +1,29 @@
+{
+  "name": "smartpay-routing-ai",
+  "version": "1.0.0",
+  "description": "AI-assisted checkout routing for PayPal: picks the PayPal payment method most likely to complete each sale, then runs the payment in the PayPal sandbox.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env index.js",
+    "dev": "node --watch --env-file-if-exists=.env index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.9"
+  },
+  "keywords": [
+    "paypal",
+    "checkout",
+    "payments",
+    "ai",
+    "gemini",
+    "claude",
+    "hackathon"
+  ],
+  "author": "Jonathan Curtatone",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
